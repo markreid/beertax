@@ -5,6 +5,34 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+
+
+
+
+const rates = {
+  light: {
+    bottled: 52.87,
+    keg: 10.57,
+  },
+  mid: {
+    bottled: 61.57,
+    keg: 33.11,
+  },
+  heavy: {
+    bottled: 61.57,
+    keg: 43.39,
+  }
+};
+
+
+
+
+
+
+
+
+
 root.render(
   <React.StrictMode>
     <App />
