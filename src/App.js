@@ -1,6 +1,19 @@
 import "./App.css";
 import { useState } from "react";
 
+
+/**
+ * 
+ * https://www.ato.gov.au/businesses-and-organisations/gst-excise-and-indirect-taxes/excise-on-alcohol/excise-duty-rates-for-alcohol
+ * 
+ * excise is (mostly) calculated based on the ABV of the beer and whether it was served in a keg or not. 
+ * the three brackets for ABV are:
+ *   <= 3%
+ *   > 3% && <= 3.5%
+ *   > 3.5% 
+ *
+ * there's some more nuance around container size but it's not relevant in 99% of cases.
+*/  
 const rates = {
   light: {
     bottled: 52.87,
