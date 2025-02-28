@@ -70,7 +70,8 @@ const App = () => {
           3 Feb 2025 to 3 Aug 2025.
         </p>
         <p>
-          🔗 <a
+          🔗{" "}
+          <a
             href="https://www.ato.gov.au/businesses-and-organisations/gst-excise-and-indirect-taxes/excise-on-alcohol/excise-duty-rates-for-alcohol"
             target="_blank"
             rel="noreferrer"
@@ -155,7 +156,10 @@ const App = () => {
           </li>
         </ul>
 
-        <p>Which is <span className="highlight">{round(taxPercent)}%</span> of the total cost.</p>
+        <p>
+          Which is <span className="highlight">{round(taxPercent)}%</span> of
+          the total cost.
+        </p>
       </div>
 
       <footer className="footer">
